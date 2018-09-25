@@ -1,4 +1,4 @@
-package edu.northeastern.cs5610;
+package com.example.myapp;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class StaticPagesApplicationTests {
+public class DemoApplicationTests {
 
 	@Test
 	public void contextLoads() {

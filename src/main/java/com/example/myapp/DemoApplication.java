@@ -1,12 +1,12 @@
-package edu.northeastern.cs5610;
+package com.example.myapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class StaticPagesApplication {
+public class DemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StaticPagesApplication.class, args);
+		SpringApplication.run(DemoApplication.class, args);
 	}
 }

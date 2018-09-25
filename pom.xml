@@ -3,12 +3,21 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
+<<<<<<< HEAD
 	<groupId>edu.northeastern.cs5610</groupId>
 	<artifactId>static_pages</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<name>static_pages</name>
+=======
+	<groupId>com.example</groupId>
+	<artifactId>myapp</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>demo</name>
+>>>>>>> b37f323f68e3cb98bef8680612613c6adea13ecd
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -22,12 +31,16 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
+<<<<<<< HEAD
 		<spring-boot-admin.version>2.0.2</spring-boot-admin.version>
+=======
+>>>>>>> b37f323f68e3cb98bef8680612613c6adea13ecd
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+<<<<<<< HEAD
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 		<dependency>
@@ -58,12 +71,19 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
+=======
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+>>>>>>> b37f323f68e3cb98bef8680612613c6adea13ecd
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
+<<<<<<< HEAD
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -76,6 +96,8 @@
 		</dependencies>
 	</dependencyManagement>
 
+=======
+>>>>>>> b37f323f68e3cb98bef8680612613c6adea13ecd
 	<build>
 		<plugins>
 			<plugin>
